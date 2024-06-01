@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "youtube_comment_fetcher"
+version = "0.1.0"
+description = ""
+authors = [""]
+readme = "README.md"
+packages = [{include = "youtube_comment_fetchers"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+idna = "3.7"
+python-dotenv = "1.0.1"
+requests = "2.32.3"
+urllib3 = "2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
