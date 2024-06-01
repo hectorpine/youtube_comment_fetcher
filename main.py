@@ -21,8 +21,6 @@ class YouTubeCommentsTool:
                 logging.error("YOUTUBE_API_KEY environment variable not set.")
                 return []
 
-            logging.info(f"Using API Key: {api_key}")
-
             comments = []
             next_page_token = None
             total_comments = self.get_current_comment_count()  # Get current comment count
